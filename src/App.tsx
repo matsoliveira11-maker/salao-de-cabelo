@@ -318,7 +318,7 @@ function Hero() {
         <div className="mt-14 md:mt-16 grid grid-cols-2 md:grid-cols-12 gap-4 md:gap-5 reveal">
           <figure className="col-span-2 md:col-span-4 rounded-[24px] overflow-hidden border border-[var(--ink-3)] bg-[var(--ink-2)] salon-shot salon-shot-tall">
             <img
-              src="/images/studioy-hero-model.png"
+              src="./images/studioy-hero-model.png"
               alt="Mulher com cabelo longo e brilhante em campanha editorial de salão"
               className="w-full h-full object-cover"
               loading="eager"
@@ -326,7 +326,7 @@ function Hero() {
           </figure>
           <figure className="hidden md:block md:col-span-3 rounded-[24px] overflow-hidden border border-[var(--ink-3)] bg-[var(--ink-2)] salon-shot">
             <img
-              src="/images/studioy-salon-interior.png"
+              src="./images/studioy-salon-interior.png"
               alt="Interior sofisticado de salão de beleza premium"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -334,7 +334,7 @@ function Hero() {
           </figure>
           <figure className="col-span-2 md:col-span-5 rounded-[24px] overflow-hidden border border-[var(--ink-3)] bg-[var(--ink-2)] salon-shot salon-shot-wide">
             <img
-              src="/images/studioy-hair-motion.png"
+              src="./images/studioy-hair-motion.png"
               alt="Modelo exibindo movimento e brilho do cabelo em ensaio de beleza"
               className="w-full h-full object-cover"
               loading="lazy"
@@ -545,7 +545,7 @@ function Services() {
             tag="Estrela da casa"
             title="Cabelo & Cor"
             text="Da escova clássica à coloração editorial. A nossa especialidade é fazer com que o cabelo não pareça feito — pareça nascido assim."
-            image="/images/studioy-hair-motion.png"
+            image="./images/studioy-hair-motion.png"
             imageAlt="Mulher exibindo cabelo com brilho e movimento em estilo editorial"
             big
           />
@@ -554,7 +554,7 @@ function Services() {
             tag="Olhar"
             title="Brow Lamination"
             text="A sobrancelha que desperta o rosto."
-            image="/images/studioy-hero-model.png"
+            image="./images/studioy-hero-model.png"
             imageAlt="Retrato de beleza com foco em fios bem tratados e visual sofisticado"
           />
           <BentoFeature
@@ -562,7 +562,7 @@ function Services() {
             tag="Ambiente"
             title="Experiência Studio"
             text="Conforto, espelhos, luz quente e atmosfera premium do início ao fim."
-            image="/images/studioy-salon-interior.png"
+            image="./images/studioy-salon-interior.png"
             imageAlt="Interior elegante de salão de beleza premium"
           />
         </div>
